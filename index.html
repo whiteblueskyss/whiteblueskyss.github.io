@@ -2,57 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GitHub Pages Deploy Test</title>
-    <style>
-      :root {
-        color-scheme: light;
-      }
-
-      body {
-        margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        background: linear-gradient(135deg, #f8fbff 0%, #e6f0ff 100%);
-        color: #0f172a;
-      }
-
-      main {
-        text-align: center;
-        background: rgba(255, 255, 255, 0.9);
-        border: 1px solid #dbeafe;
-        border-radius: 14px;
-        padding: 2rem;
-        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-        max-width: 620px;
-      }
-
-      h1 {
-        margin-top: 0;
-      }
-
-      code {
-        background: #eff6ff;
-        border: 1px solid #dbeafe;
-        border-radius: 6px;
-        padding: 0.15rem 0.35rem;
-      }
-    </style>
+    <title>whiteblueskyss.github.io</title>
   </head>
   <body>
-    <main>
-      <h1>GitHub Pages Deploy Test</h1>
-      <p>If you can see this page online, your deployment is working.</p>
-      <p>File: <code>index.html</code></p>
-      <p id="timestamp"></p>
-    </main>
-
-    <script>
-      const now = new Date();
-      document.getElementById("timestamp").textContent =
-        "Rendered at: " + now.toLocaleString();
-    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
