@@ -107,13 +107,13 @@ export default function App() {
 
             <img
               src={profilePhoto}
-              alt="Md Selim Chowdhury"
+              alt="Md Selim "
               className="w-[155px] h-[155px] rounded-full object-cover border-4 border-blue-100 shadow-md shrink-0"
             />
 
             <div className="flex-1 text-center sm:text-left">
               <h1 className="text-[2.6rem] font-bold tracking-tight text-slate-900 leading-tight mb-1">
-                Md Selim Chowdhury
+                Md Selim
               </h1>
               <p className="text-xl text-blue-700 font-semibold mb-1">Software Engineer</p>
               <p className="text-slate-500 text-base mb-6">
@@ -129,7 +129,7 @@ export default function App() {
                 <A href="https://www.linkedin.com/in/whiteblueskyss/" className="text-slate-600 hover:text-blue-700">
                   LinkedIn
                 </A>
-                <span className="text-slate-500">+880 1773-914465</span>
+                {/* <span className="text-slate-500">+880 1773-914465</span> */}
               </div>
             </div>
           </div>
@@ -413,7 +413,7 @@ export default function App() {
             </div>
             <div className="flex flex-col gap-1">
               <span className="text-xs font-semibold tracking-widest uppercase text-slate-400">Phone</span>
-              <span className="text-slate-800 font-medium">+880 1773-914465</span>
+              {/* <span className="text-slate-800 font-medium">+880 1773-914465</span> */}
             </div>
             <div className="flex flex-col gap-1">
               <span className="text-xs font-semibold tracking-widest uppercase text-slate-400">GitHub</span>
@@ -436,7 +436,7 @@ export default function App() {
 
         {/* ── Footer ── */}
         <footer className="bg-slate-800 rounded-2xl px-8 py-7 text-center">
-          <p className="text-slate-200 font-semibold text-base mb-1">Md Selim Chowdhury</p>
+          <p className="text-slate-200 font-semibold text-base mb-1">Md Selim </p>
           <p className="text-slate-400 text-sm mb-5">Software Engineer &nbsp;·&nbsp; Dhaka, Bangladesh</p>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
             <A href="mailto:selim.chy50@gmail.com" className="text-slate-300 hover:text-white">Email</A>
@@ -445,7 +445,7 @@ export default function App() {
             <A href="https://codeforces.com/profile/whiteblueskyss" className="text-slate-300 hover:text-white">Codeforces</A>
             <A href="https://leetcode.com/whiteblueskyss/" className="text-slate-300 hover:text-white">LeetCode</A>
           </div>
-          <p className="text-slate-600 text-xs mt-6">© 2025 Md Selim Chowdhury</p>
+          <p className="text-slate-600 text-xs mt-6">© 2025 Md Selim </p>
         </footer>
 
       </div>
